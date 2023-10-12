@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="images/logo.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="Link"><a href="#Home">Home</a></li>
+            <li class="Link"><a href="#Skills">Skills</a></li>
+            <li class="Link"><a href="#Projects">Projects</a></li>
+            <li class="Link"><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <H1>Hi, I'm <span>Aziz</span>, a Computer Science Student</H1>
+            <p class="intro">
+                I am a sophomore at the Polytechnic University 
+                of Valencia. Currently, I'm dedicated to refining my skills 
+                as a Front-end Developer Freelancer, with a short-term goal of becoming
+                a full-stack developer and long-term aspirations 
+                towards a career as a software engineer.
+                I am excited to embrace new challenges and continuously expand my knowledge to craft practical and impactful solutions.
+            </p>
+        </div>
+        <div class="image">
+            <img src="images/Hand coding-bro.png">
+        </div>
+    </header>
+
+    <section class="skills">
+        <div class="container grid">
+            <div class="skills_flex">
+                <h2 class="section_title">
+                    My <span>Skills:</span>
+                </h2>
+                 <div class="column">
+                  <ol class="skills_grp first-column">
+                    <li class="skills_items">HTML <i class="ri-html5-fill icon"></i></li>
+                    <li class="skills_items">CSS <i class="ri-css3-fill icon"></i></li>
+                    <li class="skills_items">JavaScript <i class="ri-javascript-fill icon"></i></li>
+                    <li class="skills_items">Java <i class="fa-brands fa-java icon"></i></li>
+                   </ol>
+                 </div>
+               
+                 <div class="column">
+                  <ol class="skills_grp second-column" start="5">
+                    <li class="skills_items">React <i class="ri-reactjs-line icon"></i></li>
+                    <li class="skills_items exception">Tailwind</li>
+                    <li class="skills_items">Git & Github <i class="ri-github-fill icon"></i></li>
+                    <li class="skills_items exception2">C Language</li>
+                   </ol>
+                 </div>
+                
+            </div>
+
+            <div class="skills_data">
+                <h3 class="skills_serv">
+                    I'm currently focused on strengthening my backend development skills to create projects that utilize APIs and databases. Alongside this, I'm dedicated to refining my front-end expertise for well-rounded web development.
+                </h3>
+
+                <button class="btn"><a href="#Projects">See Projects</a></button> 
+            </div>
+        </div>
+    </section>
+
+    <section class="work section" id="work">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <p class="remark">These projects aren't real for the moment, just for display purposes</p>
+        <div class="work__container bd-grid">
+            <a href="" class="work__img">
+                <img src="images/photo-1517694712202-14dd9538aa97.jpeg" alt="">
+                <div class="projects__model">
+                    <span>Web</span>
+                    <h2>Example 1</h2>
+                </div>
+            </a>
+            <a href="" class="work__img">
+                <img src="images/pic2.jpg" alt="">
+                <div class="projects__model">
+                    <span>Desktop Software</span>
+                    <h2>Example 2</h2>
+                </div>
+            </a>
+            <a href="" class="work__img">
+                <img src="images/pic3.jpg" alt="">
+                <div class="projects__model">
+                    <span>Mobile App</span>
+                    <h2>Example 3</h2>
+                </div>
+            </a>
+            <a href="" class="work__img">
+                <img src="images/pic4.jpg" alt="">
+                <div class="projects__model">
+                    <span>Database System</span>
+                    <h2>Example 4</h2>
+                </div>
+            </a>
+            <a href="" class="work__img">
+                <img src="images/pic5.jpg" alt="">
+                <div class="projects__model">
+                    <span>Web Application</span>
+                    <h2>Example 5</h2>
+                </div>
+            </a>
+            <a href="" class="work__img">
+                <img src="images/pic6.jpg" alt="">
+                <div class="projects__model">
+                    <span>E-commerce Platform</span>
+                    <h2>Example 6</h2>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <section class="contact section" id="contact">
+        <h2 class="section-title"><span>Contact</span> me</h2>
+        <div class="contact_container">
+            <form action="" class="contact_form" id="contact-form">
+                <input type="text" name="user_name" required placeholder="Enter your name">
+                <input type="email" name="user_email" required placeholder="Enter your email">
+
+             <textarea name="user_message" required placeholder="Enter your Message" rows="10"></textarea>
+             <button type="submit" class="btn contact_btn">
+                Send Message
+             </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="copyright">
+            <p>Copyright © 2023 Aziz. All Rights Reserved.<p>
+            <div class="socials">
+               <a href="https://www.linkedin.com/in/aziz-ben-hassen-77a221228" target="_blank"><i class="ri-linkedin-box-fill linked"></i></a>
+               <a href=""><i class="ri-github-fill git"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+     <script src="script.js"></script>   
+</body>
+</html>
