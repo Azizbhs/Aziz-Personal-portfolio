@@ -339,6 +339,11 @@ textarea{
     border-radius: 0.5rem;
 }
 
+.contact_email{
+    color: #fff;
+    margin: auto;
+}
+
 .copyright{
     margin-top: 40px;
     margin-bottom: -30px;
