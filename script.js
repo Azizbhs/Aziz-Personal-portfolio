@@ -30,8 +30,11 @@ link4.addEventListener('click', ()=>{
 link3.addEventListener('click',scrollToProjects);
 link5.addEventListener('click',scrollToProjects);
 
-
-
+//responsive design
+function toggleMobileMenu() {
+    const menu = document.querySelector('.nav-links');
+    menu.classList.toggle('active');
+}
 
 //Emailjs
 const contactForm = document.getElementById('contact-form'),
