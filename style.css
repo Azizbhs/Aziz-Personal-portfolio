@@ -370,3 +370,25 @@ textarea{
 .git{
     color: gray;
 }
+
+/*responsive design*/
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide the menu by default on small screens */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex; /* Show the menu when the "active" class is applied (via JavaScript) */
+    }
+
+    .menu-toggle {
+        display: block; /* Show the menu toggle button on small screens */
+        cursor: pointer;
+    }
+}
