@@ -409,7 +409,7 @@ textarea{
     .nav-links {
         display: none;
         flex-direction: column;
-        background-color: #333;
+        background-color: #18181B;
         position: fixed;
         padding-top: 30px;
         z-index: 100;
@@ -418,6 +418,10 @@ textarea{
         height: 100%;
         width: 100%;
         height: 45%;
+    }
+
+    .Link a::after{
+        width: 100%;
     }
 
     .nav-links.active {
