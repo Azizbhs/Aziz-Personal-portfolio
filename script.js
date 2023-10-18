@@ -31,10 +31,19 @@ link3.addEventListener('click',scrollToProjects);
 link5.addEventListener('click',scrollToProjects);
 
 //responsive design
-function toggleMobileMenu() {
-    const menu = document.querySelector('.nav-links');
-    menu.classList.toggle('active');
-}
+const Menu = document.getElementById('nav-links'),
+      navToggle = document.getElementById('menu-toggle')
+
+  
+    navToggle.addEventListener('click', ()=>{
+        if (Menu.classList.contains('show-menu')) {
+            Menu.classList.remove('show-menu');
+        } else {
+            Menu.classList.add('show-menu');
+        }
+    })
+
+
 
 //Emailjs
 const contactForm = document.getElementById('contact-form'),
