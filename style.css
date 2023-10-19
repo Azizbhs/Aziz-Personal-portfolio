@@ -180,9 +180,6 @@ li.skills_items{
     font-size: 22px; 
 }
   
-.column + .column {
-    margin-left: 10px;
-  }
 
 h3{
     color: #fff;
@@ -439,5 +436,20 @@ textarea{
 
     .nav-logo{
       width: 70px;
+    }
+
+    li.skills_items{
+        font-size: 15px; 
+        display:flexbox;
+        align-items:center ;
+    
+    }
+
+    i{
+        font-size: ;
+    }
+
+    .skills_grp{
+        margin: 20px;
     }
 }
