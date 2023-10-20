@@ -452,4 +452,11 @@ textarea{
     .skills_grp{
         margin: 20px;
     }
+
+    .work__container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 130px;
+        row-gap: 60px;
+    }
+    
 }
