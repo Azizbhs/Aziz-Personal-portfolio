@@ -371,7 +371,7 @@ textarea{
 /*responsive design*/
 @media screen and (max-width: 768px) {
     body{
-        margin-left: 50px;
+        margin-left: 50px ;
         font-size: 80%;
     }
 
@@ -455,4 +455,11 @@ textarea{
         row-gap: 60px;
     }
 
+    .contact h2{
+        margin-left: -50px;
+    }
+     
+    .contact_container{
+        margin-left: -40px;
+    }
 }
