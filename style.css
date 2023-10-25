@@ -143,13 +143,18 @@ header .image img{
     gap: 2rem;
 }
 
- span{
+span{
     color:#23db73;
 }
 
 .section_title{
     color: #fff;
     margin-bottom: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: 1.5rem;
 }
 
 .skills_grp{
@@ -178,6 +183,10 @@ ol {
 li.skills_items{
     padding: 10px;
     font-size: 22px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
   
 
@@ -371,6 +380,7 @@ textarea{
 /*responsive design*/
 @media screen and (max-width: 768px) {
     body{
+        overflow-wrap: ;
         margin-left: 50px ;
         font-size: 80%;
     }
@@ -442,8 +452,21 @@ textarea{
     
     }
 
+    .section_title {
+            font-size: 1.2rem;
+    }
+
+    .grid{
+        margin-left: -40px;
+    }
+
     .skills_grp{
         margin: 20px;
+    }
+
+    .skills_data{
+        width: 170%;
+        top: 80px;
     }
 
     .skills_data h3{
@@ -461,5 +484,9 @@ textarea{
      
     .contact_container{
         margin-left: -40px;
+    }
+
+    .footer{
+        margin-right: 50px;
     }
 }
