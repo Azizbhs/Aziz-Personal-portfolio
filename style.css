@@ -380,7 +380,6 @@ textarea{
 /*responsive design*/
 @media screen and (max-width: 768px) {
     body{
-        overflow-wrap: ;
         margin-left: 50px ;
         font-size: 80%;
     }
