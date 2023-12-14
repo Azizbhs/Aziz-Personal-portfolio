@@ -210,17 +210,6 @@ li.exception::after{
   background-repeat: no-repeat;
 }
 
-li.exception2::after{
-    content: "";
-    background-image: url(images/pngegg.png);
-    background-size: 20px 20px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-left: 8px;
-    background-repeat: no-repeat;
-  }
-
 .skills_flex::after{
         content: "";
         border-right: 1px solid #ccc; /* Vertical line between columns */
