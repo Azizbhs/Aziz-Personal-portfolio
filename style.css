@@ -370,7 +370,6 @@ textarea{
 @media screen and (max-width: 1200px) {
     body{
         margin-left: 50px ;
-        font-size: 50%;
     }
 
     .nav{
@@ -384,10 +383,15 @@ textarea{
 
     .container{
         margin-top: 100px;
+        width: 200%;
+    }
+
+    .content{
+        width: ;
     }
 
     header .content H1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     header .content p{
