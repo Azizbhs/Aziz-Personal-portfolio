@@ -383,11 +383,7 @@ textarea{
 
     .container{
         margin-top: 100px;
-        width: 200%;
-    }
-
-    .content{
-        width: ;
+        width: 100%;
     }
 
     header .content H1{
@@ -457,9 +453,12 @@ textarea{
     }
 
     .skills_data{
-        width: 170%;
-        top: 80px;
+        display: none;
     }
+
+    .skills_flex::after{
+        border-right: 0px;
+}
 
     .skills_data h3{
          font-size: 0.9rem;
