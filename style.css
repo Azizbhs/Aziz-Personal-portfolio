@@ -370,7 +370,7 @@ textarea{
 @media screen and (max-width: 1200px) {
     body{
         margin-left: 50px ;
-        font-size: 80%;
+        font-size: 50%;
     }
 
     .nav{
