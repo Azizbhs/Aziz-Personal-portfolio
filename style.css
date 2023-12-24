@@ -395,7 +395,7 @@ textarea{
     }
 
     .image{
-       width: 0%;
+       display: none;
     }
 
     .nav-links {
