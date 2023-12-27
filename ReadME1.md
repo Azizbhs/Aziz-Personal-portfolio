@@ -1,5 +1,7 @@
 # My Personal Portfolio:
 
+https://azizpersonalportfolio.netlify.app/
+
 Welcome to my personal portfolio! This is a responsive website built using HTML, CSS, and JavaScript. The purpose of this portfolio is to showcase my skills, projects, and provide a way for anyone interested to contact me.
 
 ## Features:
